@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA994CF2A5420EC004EB497 /* DeutscheBankTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994CE2A5420EC004EB497 /* DeutscheBankTestApp.swift */; };
+		FDA994D12A5420EC004EB497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994D02A5420EC004EB497 /* ContentView.swift */; };
+		FDA994D32A5420EE004EB497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA994D22A5420EE004EB497 /* Assets.xcassets */; };
+		FDA994D62A5420EE004EB497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA994D52A5420EE004EB497 /* Preview Assets.xcassets */; };
+		FDA994E02A5420EE004EB497 /* DeutscheBankTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */; };
+		FDA994EA2A5420EE004EB497 /* DeutscheBankTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994E92A5420EE004EB497 /* DeutscheBankTestUITests.swift */; };
+		FDA994EC2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994EB2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA994DC2A5420EE004EB497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA994C32A5420EC004EB497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA994CA2A5420EC004EB497;
+			remoteInfo = DeutscheBankTest;
+		};
+		FDA994E62A5420EE004EB497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA994C32A5420EC004EB497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA994CA2A5420EC004EB497;
+			remoteInfo = DeutscheBankTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA994CB2A5420EC004EB497 /* DeutscheBankTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeutscheBankTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA994CE2A5420EC004EB497 /* DeutscheBankTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestApp.swift; sourceTree = "<group>"; };
+		FDA994D02A5420EC004EB497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDA994D22A5420EE004EB497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA994D52A5420EE004EB497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDA994DB2A5420EE004EB497 /* DeutscheBankTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBankTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestTests.swift; sourceTree = "<group>"; };
+		FDA994E52A5420EE004EB497 /* DeutscheBankTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBankTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA994E92A5420EE004EB497 /* DeutscheBankTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestUITests.swift; sourceTree = "<group>"; };
+		FDA994EB2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA994C82A5420EC004EB497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA994D82A5420EE004EB497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA994E22A5420EE004EB497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA994C22A5420EC004EB497 = {
+			isa = PBXGroup;
+			children = (
+				FDA994CD2A5420EC004EB497 /* DeutscheBankTest */,
+				FDA994DE2A5420EE004EB497 /* DeutscheBankTestTests */,
+				FDA994E82A5420EE004EB497 /* DeutscheBankTestUITests */,
+				FDA994CC2A5420EC004EB497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA994CC2A5420EC004EB497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA994CB2A5420EC004EB497 /* DeutscheBankTest.app */,
+				FDA994DB2A5420EE004EB497 /* DeutscheBankTestTests.xctest */,
+				FDA994E52A5420EE004EB497 /* DeutscheBankTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA994CD2A5420EC004EB497 /* DeutscheBankTest */ = {
+			isa = PBXGroup;
+			children = (
+				FDA994CE2A5420EC004EB497 /* DeutscheBankTestApp.swift */,
+				FDA994D02A5420EC004EB497 /* ContentView.swift */,
+				FDA994D22A5420EE004EB497 /* Assets.xcassets */,
+				FDA994D42A5420EE004EB497 /* Preview Content */,
+			);
+			path = DeutscheBankTest;
+			sourceTree = "<group>";
+		};
+		FDA994D42A5420EE004EB497 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDA994D52A5420EE004EB497 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDA994DE2A5420EE004EB497 /* DeutscheBankTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */,
+			);
+			path = DeutscheBankTestTests;
+			sourceTree = "<group>";
+		};
+		FDA994E82A5420EE004EB497 /* DeutscheBankTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA994E92A5420EE004EB497 /* DeutscheBankTestUITests.swift */,
+				FDA994EB2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift */,
+			);
+			path = DeutscheBankTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA994CA2A5420EC004EB497 /* DeutscheBankTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA994EF2A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTest" */;
+			buildPhases = (
+				FDA994C72A5420EC004EB497 /* Sources */,
+				FDA994C82A5420EC004EB497 /* Frameworks */,
+				FDA994C92A5420EC004EB497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeutscheBankTest;
+			productName = DeutscheBankTest;
+			productReference = FDA994CB2A5420EC004EB497 /* DeutscheBankTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA994DA2A5420EE004EB497 /* DeutscheBankTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA994F22A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTestTests" */;
+			buildPhases = (
+				FDA994D72A5420EE004EB497 /* Sources */,
+				FDA994D82A5420EE004EB497 /* Frameworks */,
+				FDA994D92A5420EE004EB497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA994DD2A5420EE004EB497 /* PBXTargetDependency */,
+			);
+			name = DeutscheBankTestTests;
+			productName = DeutscheBankTestTests;
+			productReference = FDA994DB2A5420EE004EB497 /* DeutscheBankTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA994E42A5420EE004EB497 /* DeutscheBankTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA994F52A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTestUITests" */;
+			buildPhases = (
+				FDA994E12A5420EE004EB497 /* Sources */,
+				FDA994E22A5420EE004EB497 /* Frameworks */,
+				FDA994E32A5420EE004EB497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA994E72A5420EE004EB497 /* PBXTargetDependency */,
+			);
+			name = DeutscheBankTestUITests;
+			productName = DeutscheBankTestUITests;
+			productReference = FDA994E52A5420EE004EB497 /* DeutscheBankTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA994C32A5420EC004EB497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FDA994CA2A5420EC004EB497 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FDA994DA2A5420EE004EB497 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDA994CA2A5420EC004EB497;
+					};
+					FDA994E42A5420EE004EB497 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDA994CA2A5420EC004EB497;
+					};
+				};
+			};
+			buildConfigurationList = FDA994C62A5420EC004EB497 /* Build configuration list for PBXProject "DeutscheBankTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA994C22A5420EC004EB497;
+			productRefGroup = FDA994CC2A5420EC004EB497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA994CA2A5420EC004EB497 /* DeutscheBankTest */,
+				FDA994DA2A5420EE004EB497 /* DeutscheBankTestTests */,
+				FDA994E42A5420EE004EB497 /* DeutscheBankTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA994C92A5420EC004EB497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA994D62A5420EE004EB497 /* Preview Assets.xcassets in Resources */,
+				FDA994D32A5420EE004EB497 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA994D92A5420EE004EB497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA994E32A5420EE004EB497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA994C72A5420EC004EB497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA994D12A5420EC004EB497 /* ContentView.swift in Sources */,
+				FDA994CF2A5420EC004EB497 /* DeutscheBankTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA994D72A5420EE004EB497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA994E02A5420EE004EB497 /* DeutscheBankTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA994E12A5420EE004EB497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA994EA2A5420EE004EB497 /* DeutscheBankTestUITests.swift in Sources */,
+				FDA994EC2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA994DD2A5420EE004EB497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA994CA2A5420EC004EB497 /* DeutscheBankTest */;
+			targetProxy = FDA994DC2A5420EE004EB497 /* PBXContainerItemProxy */;
+		};
+		FDA994E72A5420EE004EB497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA994CA2A5420EC004EB497 /* DeutscheBankTest */;
+			targetProxy = FDA994E62A5420EE004EB497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDA994ED2A5420EE004EB497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA994EE2A5420EE004EB497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA994F02A5420EE004EB497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeutscheBankTest/Preview Content\"";
+				DEVELOPMENT_TEAM = JKT83J7842;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA994F12A5420EE004EB497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DeutscheBankTest/Preview Content\"";
+				DEVELOPMENT_TEAM = JKT83J7842;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDA994F32A5420EE004EB497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeutscheBankTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeutscheBankTest";
+			};
+			name = Debug;
+		};
+		FDA994F42A5420EE004EB497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeutscheBankTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeutscheBankTest";
+			};
+			name = Release;
+		};
+		FDA994F62A5420EE004EB497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeutscheBankTest;
+			};
+			name = Debug;
+		};
+		FDA994F72A5420EE004EB497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JKT83J7842;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeutscheBankTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA994C62A5420EC004EB497 /* Build configuration list for PBXProject "DeutscheBankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA994ED2A5420EE004EB497 /* Debug */,
+				FDA994EE2A5420EE004EB497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA994EF2A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA994F02A5420EE004EB497 /* Debug */,
+				FDA994F12A5420EE004EB497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA994F22A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA994F32A5420EE004EB497 /* Debug */,
+				FDA994F42A5420EE004EB497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA994F52A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA994F62A5420EE004EB497 /* Debug */,
+				FDA994F72A5420EE004EB497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA994C32A5420EC004EB497 /* Project object */;
+}
