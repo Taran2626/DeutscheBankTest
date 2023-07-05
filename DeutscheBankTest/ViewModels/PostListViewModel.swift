@@ -50,6 +50,9 @@ class PostListViewModel: ObservableObject, PostListViewProtocol {
         }
         do {
             posts = try await service.getJSON(urlString: getUrlString())
+            if posts.count == 0 {
+                errorMessage = "No posts found"
+            }
             savedItems = db.load(for: userId ?? "")
         }
         catch{
