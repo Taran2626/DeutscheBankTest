@@ -29,6 +29,7 @@
 		FDA9951F2A557ADA004EB497 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9951E2A557ADA004EB497 /* Bundle+Extension.swift */; };
 		FDA995212A557B04004EB497 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995202A557B04004EB497 /* MockAPIService.swift */; };
 		FDA995222A557CF4004EB497 /* Post.json in Resources */ = {isa = PBXBuildFile; fileRef = FDA9951B2A557A58004EB497 /* Post.json */; };
+		FDA995242A558130004EB497 /* MockDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995232A558130004EB497 /* MockDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		FDA9951B2A557A58004EB497 /* Post.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Post.json; sourceTree = "<group>"; };
 		FDA9951E2A557ADA004EB497 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
 		FDA995202A557B04004EB497 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
+		FDA995232A558130004EB497 /* MockDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				FDA9951D2A557AC7004EB497 /* Extension */,
 				FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */,
 				FDA995202A557B04004EB497 /* MockAPIService.swift */,
+				FDA995232A558130004EB497 /* MockDatabase.swift */,
 				FDA9951B2A557A58004EB497 /* Post.json */,
 			);
 			path = DeutscheBankTestTests;
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA995242A558130004EB497 /* MockDatabase.swift in Sources */,
 				FDA995212A557B04004EB497 /* MockAPIService.swift in Sources */,
 				FDA994E02A5420EE004EB497 /* DeutscheBankTestTests.swift in Sources */,
 				FDA9951F2A557ADA004EB497 /* Bundle+Extension.swift in Sources */,

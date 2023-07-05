@@ -33,11 +33,12 @@ class PostListViewModel: ObservableObject, PostListViewProtocol {
             return posts
         }
     }
-    private var db = Database()
+    private var db: DatabaseProtocol
     let service: APIServiceProtocol
 
-    init(service: APIServiceProtocol = APIService()) {
+    init(service: APIServiceProtocol = APIService(), db: DatabaseProtocol = Database()) {
         self.service = service
+        self.db = db
     }
     
     @MainActor

@@ -6,8 +6,14 @@
 //
 
 import Foundation
+protocol DatabaseProtocol {
 
-final class Database {
+    func save(posts: Set<Int>, for userId: String)
+    func load(for userId: String) -> Set<Int>
+
+}
+
+final class Database : DatabaseProtocol {
     private let FAV_KEY = "fav_key"
     
     func save(posts: Set<Int>, for userId: String){

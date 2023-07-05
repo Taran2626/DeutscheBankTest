@@ -28,6 +28,7 @@ struct LoginView: View {
                         .stroke(.blue, lineWidth: 2)
                 }
                 .padding(.horizontal)
+                .keyboardType(.numberPad)
                 
                 NavigationLink(destination: PostsListView(userId: userId), tag: 1, selection: $selection) {
                     Button {
