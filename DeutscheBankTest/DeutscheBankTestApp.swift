@@ -11,7 +11,10 @@ import SwiftUI
 struct DeutscheBankTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+                .onAppear {
+                    UserDefaults.standard.setValue(false, forKey: "_UIConstraintBasedLayoutLogUnsatisfiable")
+                }
         }
     }
 }

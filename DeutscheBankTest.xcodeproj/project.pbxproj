@@ -8,23 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		FDA994CF2A5420EC004EB497 /* DeutscheBankTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994CE2A5420EC004EB497 /* DeutscheBankTestApp.swift */; };
-		FDA994D12A5420EC004EB497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994D02A5420EC004EB497 /* ContentView.swift */; };
 		FDA994D32A5420EE004EB497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA994D22A5420EE004EB497 /* Assets.xcassets */; };
 		FDA994D62A5420EE004EB497 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA994D52A5420EE004EB497 /* Preview Assets.xcassets */; };
 		FDA994E02A5420EE004EB497 /* DeutscheBankTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */; };
-		FDA994EA2A5420EE004EB497 /* DeutscheBankTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994E92A5420EE004EB497 /* DeutscheBankTestUITests.swift */; };
-		FDA994EC2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994EB2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift */; };
+		FDA994FE2A5421E1004EB497 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994FD2A5421E1004EB497 /* APIError.swift */; };
+		FDA995002A5421FA004EB497 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA994FF2A5421FA004EB497 /* APIService.swift */; };
+		FDA995022A542379004EB497 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995012A542379004EB497 /* Post.swift */; };
+		FDA995042A5423D0004EB497 /* PostListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995032A5423D0004EB497 /* PostListViewModel.swift */; };
+		FDA995062A5425A4004EB497 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995052A5425A4004EB497 /* LoginView.swift */; };
+		FDA995082A542735004EB497 /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995072A542735004EB497 /* PostsListView.swift */; };
+		FDA9950B2A5496CE004EB497 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9950A2A5496CE004EB497 /* Database.swift */; };
+		FDA9950E2A5552CD004EB497 /* CommentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9950D2A5552CD004EB497 /* CommentsView.swift */; };
+		FDA995102A555C3A004EB497 /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9950F2A555C3A004EB497 /* CommentsViewModel.swift */; };
+		FDA995122A555C6B004EB497 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995112A555C6B004EB497 /* Comment.swift */; };
+		FDA995142A555F00004EB497 /* PostRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995132A555F00004EB497 /* PostRowView.swift */; };
+		FDA995162A556003004EB497 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995152A556003004EB497 /* ErrorView.swift */; };
+		FDA995182A55615D004EB497 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995172A55615D004EB497 /* PostCell.swift */; };
+		FDA9951A2A5561AE004EB497 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995192A5561AE004EB497 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FDA994DC2A5420EE004EB497 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FDA994C32A5420EC004EB497 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDA994CA2A5420EC004EB497;
-			remoteInfo = DeutscheBankTest;
-		};
-		FDA994E62A5420EE004EB497 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FDA994C32A5420EC004EB497 /* Project object */;
 			proxyType = 1;
@@ -36,14 +40,25 @@
 /* Begin PBXFileReference section */
 		FDA994CB2A5420EC004EB497 /* DeutscheBankTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeutscheBankTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA994CE2A5420EC004EB497 /* DeutscheBankTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestApp.swift; sourceTree = "<group>"; };
-		FDA994D02A5420EC004EB497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDA994D22A5420EE004EB497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA994D52A5420EE004EB497 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDA994DB2A5420EE004EB497 /* DeutscheBankTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBankTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestTests.swift; sourceTree = "<group>"; };
-		FDA994E52A5420EE004EB497 /* DeutscheBankTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBankTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDA994E92A5420EE004EB497 /* DeutscheBankTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestUITests.swift; sourceTree = "<group>"; };
-		FDA994EB2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBankTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDA994FD2A5421E1004EB497 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		FDA994FF2A5421FA004EB497 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FDA995012A542379004EB497 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FDA995032A5423D0004EB497 /* PostListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListViewModel.swift; sourceTree = "<group>"; };
+		FDA995052A5425A4004EB497 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FDA995072A542735004EB497 /* PostsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListView.swift; sourceTree = "<group>"; };
+		FDA9950A2A5496CE004EB497 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		FDA9950C2A55523F004EB497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FDA9950D2A5552CD004EB497 /* CommentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsView.swift; sourceTree = "<group>"; };
+		FDA9950F2A555C3A004EB497 /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		FDA995112A555C6B004EB497 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		FDA995132A555F00004EB497 /* PostRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRowView.swift; sourceTree = "<group>"; };
+		FDA995152A556003004EB497 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		FDA995172A55615D004EB497 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		FDA995192A5561AE004EB497 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +76,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDA994E22A5420EE004EB497 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +84,6 @@
 			children = (
 				FDA994CD2A5420EC004EB497 /* DeutscheBankTest */,
 				FDA994DE2A5420EE004EB497 /* DeutscheBankTestTests */,
-				FDA994E82A5420EE004EB497 /* DeutscheBankTestUITests */,
 				FDA994CC2A5420EC004EB497 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +93,6 @@
 			children = (
 				FDA994CB2A5420EC004EB497 /* DeutscheBankTest.app */,
 				FDA994DB2A5420EE004EB497 /* DeutscheBankTestTests.xctest */,
-				FDA994E52A5420EE004EB497 /* DeutscheBankTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +100,14 @@
 		FDA994CD2A5420EC004EB497 /* DeutscheBankTest */ = {
 			isa = PBXGroup;
 			children = (
+				FDA9950C2A55523F004EB497 /* Info.plist */,
+				FDA995092A5496B5004EB497 /* Database */,
+				FDA994F82A542136004EB497 /* Model */,
+				FDA994F92A542145004EB497 /* ViewModels */,
+				FDA994FA2A542158004EB497 /* Views */,
+				FDA994FB2A542163004EB497 /* Cells */,
+				FDA994FC2A54216F004EB497 /* Networking */,
 				FDA994CE2A5420EC004EB497 /* DeutscheBankTestApp.swift */,
-				FDA994D02A5420EC004EB497 /* ContentView.swift */,
 				FDA994D22A5420EE004EB497 /* Assets.xcassets */,
 				FDA994D42A5420EE004EB497 /* Preview Content */,
 			);
@@ -118,13 +130,60 @@
 			path = DeutscheBankTestTests;
 			sourceTree = "<group>";
 		};
-		FDA994E82A5420EE004EB497 /* DeutscheBankTestUITests */ = {
+		FDA994F82A542136004EB497 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FDA994E92A5420EE004EB497 /* DeutscheBankTestUITests.swift */,
-				FDA994EB2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift */,
+				FDA995012A542379004EB497 /* Post.swift */,
+				FDA995112A555C6B004EB497 /* Comment.swift */,
 			);
-			path = DeutscheBankTestUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDA994F92A542145004EB497 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FDA995032A5423D0004EB497 /* PostListViewModel.swift */,
+				FDA9950F2A555C3A004EB497 /* CommentsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FDA994FA2A542158004EB497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDA995052A5425A4004EB497 /* LoginView.swift */,
+				FDA995072A542735004EB497 /* PostsListView.swift */,
+				FDA995132A555F00004EB497 /* PostRowView.swift */,
+				FDA9950D2A5552CD004EB497 /* CommentsView.swift */,
+				FDA995152A556003004EB497 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDA994FB2A542163004EB497 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FDA995172A55615D004EB497 /* PostCell.swift */,
+				FDA995192A5561AE004EB497 /* CommentCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FDA994FC2A54216F004EB497 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FDA994FD2A5421E1004EB497 /* APIError.swift */,
+				FDA994FF2A5421FA004EB497 /* APIService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FDA995092A5496B5004EB497 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9950A2A5496CE004EB497 /* Database.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +224,6 @@
 			productReference = FDA994DB2A5420EE004EB497 /* DeutscheBankTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FDA994E42A5420EE004EB497 /* DeutscheBankTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FDA994F52A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTestUITests" */;
-			buildPhases = (
-				FDA994E12A5420EE004EB497 /* Sources */,
-				FDA994E22A5420EE004EB497 /* Frameworks */,
-				FDA994E32A5420EE004EB497 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FDA994E72A5420EE004EB497 /* PBXTargetDependency */,
-			);
-			name = DeutscheBankTestUITests;
-			productName = DeutscheBankTestUITests;
-			productReference = FDA994E52A5420EE004EB497 /* DeutscheBankTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +238,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					FDA994DA2A5420EE004EB497 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = FDA994CA2A5420EC004EB497;
-					};
-					FDA994E42A5420EE004EB497 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = FDA994CA2A5420EC004EB497;
 					};
@@ -221,7 +258,6 @@
 			targets = (
 				FDA994CA2A5420EC004EB497 /* DeutscheBankTest */,
 				FDA994DA2A5420EE004EB497 /* DeutscheBankTestTests */,
-				FDA994E42A5420EE004EB497 /* DeutscheBankTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +279,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDA994E32A5420EE004EB497 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +286,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA994D12A5420EC004EB497 /* ContentView.swift in Sources */,
+				FDA995102A555C3A004EB497 /* CommentsViewModel.swift in Sources */,
+				FDA995082A542735004EB497 /* PostsListView.swift in Sources */,
+				FDA995062A5425A4004EB497 /* LoginView.swift in Sources */,
+				FDA9950E2A5552CD004EB497 /* CommentsView.swift in Sources */,
 				FDA994CF2A5420EC004EB497 /* DeutscheBankTestApp.swift in Sources */,
+				FDA9951A2A5561AE004EB497 /* CommentCell.swift in Sources */,
+				FDA995042A5423D0004EB497 /* PostListViewModel.swift in Sources */,
+				FDA995002A5421FA004EB497 /* APIService.swift in Sources */,
+				FDA995182A55615D004EB497 /* PostCell.swift in Sources */,
+				FDA994FE2A5421E1004EB497 /* APIError.swift in Sources */,
+				FDA9950B2A5496CE004EB497 /* Database.swift in Sources */,
+				FDA995142A555F00004EB497 /* PostRowView.swift in Sources */,
+				FDA995122A555C6B004EB497 /* Comment.swift in Sources */,
+				FDA995162A556003004EB497 /* ErrorView.swift in Sources */,
+				FDA995022A542379004EB497 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +312,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDA994E12A5420EE004EB497 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDA994EA2A5420EE004EB497 /* DeutscheBankTestUITests.swift in Sources */,
-				FDA994EC2A5420EE004EB497 /* DeutscheBankTestUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +319,6 @@
 			isa = PBXTargetDependency;
 			target = FDA994CA2A5420EC004EB497 /* DeutscheBankTest */;
 			targetProxy = FDA994DC2A5420EE004EB497 /* PBXContainerItemProxy */;
-		};
-		FDA994E72A5420EE004EB497 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FDA994CA2A5420EC004EB497 /* DeutscheBankTest */;
-			targetProxy = FDA994E62A5420EE004EB497 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -345,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -420,7 +448,7 @@
 				DEVELOPMENT_TEAM = JKT83J7842;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DeutscheBankTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +477,7 @@
 				DEVELOPMENT_TEAM = JKT83J7842;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = DeutscheBankTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,42 +535,6 @@
 			};
 			name = Release;
 		};
-		FDA994F62A5420EE004EB497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JKT83J7842;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DeutscheBankTest;
-			};
-			name = Debug;
-		};
-		FDA994F72A5420EE004EB497 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JKT83J7842;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.DeutscheBankTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = DeutscheBankTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +561,6 @@
 			buildConfigurations = (
 				FDA994F32A5420EE004EB497 /* Debug */,
 				FDA994F42A5420EE004EB497 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FDA994F52A5420EE004EB497 /* Build configuration list for PBXNativeTarget "DeutscheBankTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FDA994F62A5420EE004EB497 /* Debug */,
-				FDA994F72A5420EE004EB497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
