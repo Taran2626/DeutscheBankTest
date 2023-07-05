@@ -34,6 +34,11 @@ class PostListViewModel: ObservableObject, PostListViewProtocol {
         }
     }
     private var db = Database()
+    let service: APIServiceProtocol
+
+    init(service: APIServiceProtocol = APIService()) {
+        self.service = service
+    }
     
     @MainActor
     func getPosts() async{
@@ -43,7 +48,7 @@ class PostListViewModel: ObservableObject, PostListViewProtocol {
             isLoading.toggle()
         }
         do {
-            posts = try await APIService().getJSON(urlString: getUrlString())
+            posts = try await service.getJSON(urlString: getUrlString())
             savedItems = db.load(for: userId ?? "")
         }
         catch{

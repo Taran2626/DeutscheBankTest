@@ -6,31 +6,51 @@
 //
 
 import XCTest
+import Combine
 @testable import DeutscheBankTest
 
 final class DeutscheBankTestTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var cancellables = Set<AnyCancellable>()
+
+    override func setUp() { }
+    
+    override func tearDown() {
+        cancellables = []
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testFetchPhotos_Success() async {
+        let expectation = XCTestExpectation(description: "Posts are fetched successfully")
+        let sut = PostListViewModel(service: MockAPIService())
+        await sut.getPosts()
+        
+        sut.$posts.sink { post in
+            if post.count > 0{
+                expectation.fulfill()
+            }
+        }.store(in: &cancellables)
+        
+        wait(for: [expectation], timeout: 2)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testFetchPhotos_Error() async {
+        let expectation = XCTestExpectation(description: "Posts are not fetched successfully")
+        let sut = PostListViewModel(service: MockAPIService(isSuccess: false))
+        await sut.getPosts()
+        
+        sut.$posts.sink { post in
+            if post.count > 0{
+                XCTFail()
+            }
+        }.store(in: &cancellables)
+        
+        sut.$errorMessage.sink { errorMsg in
+            if !errorMsg.isEmpty {
+                expectation.fulfill()
+            }
+        }.store(in: &cancellables)
+        
+        wait(for: [expectation], timeout: 2)
     }
 
 }

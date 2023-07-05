@@ -20,7 +20,11 @@ class CommentsViewModel: ObservableObject, CommentsViewProtocol {
     @Published var errorMessage: String = ""
     @Published var showAlert = false
     var postId: String?
-       
+    let service: APIServiceProtocol
+
+    init(service: APIServiceProtocol = APIService()) {
+        self.service = service
+    }
     @MainActor
     func getComments() async{
         
@@ -29,7 +33,7 @@ class CommentsViewModel: ObservableObject, CommentsViewProtocol {
             isLoading.toggle()
         }
         do {
-            comments = try await APIService().getJSON(urlString: getUrlString())
+            comments = try await service.getJSON(urlString: getUrlString())
         }
         catch{
             showAlert = true

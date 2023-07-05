@@ -25,6 +25,10 @@
 		FDA995162A556003004EB497 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995152A556003004EB497 /* ErrorView.swift */; };
 		FDA995182A55615D004EB497 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995172A55615D004EB497 /* PostCell.swift */; };
 		FDA9951A2A5561AE004EB497 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995192A5561AE004EB497 /* CommentCell.swift */; };
+		FDA9951C2A557A58004EB497 /* Post.json in Resources */ = {isa = PBXBuildFile; fileRef = FDA9951B2A557A58004EB497 /* Post.json */; };
+		FDA9951F2A557ADA004EB497 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA9951E2A557ADA004EB497 /* Bundle+Extension.swift */; };
+		FDA995212A557B04004EB497 /* MockAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA995202A557B04004EB497 /* MockAPIService.swift */; };
+		FDA995222A557CF4004EB497 /* Post.json in Resources */ = {isa = PBXBuildFile; fileRef = FDA9951B2A557A58004EB497 /* Post.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,9 @@
 		FDA995152A556003004EB497 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		FDA995172A55615D004EB497 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		FDA995192A5561AE004EB497 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		FDA9951B2A557A58004EB497 /* Post.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Post.json; sourceTree = "<group>"; };
+		FDA9951E2A557ADA004EB497 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		FDA995202A557B04004EB497 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +132,10 @@
 		FDA994DE2A5420EE004EB497 /* DeutscheBankTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				FDA9951D2A557AC7004EB497 /* Extension */,
 				FDA994DF2A5420EE004EB497 /* DeutscheBankTestTests.swift */,
+				FDA995202A557B04004EB497 /* MockAPIService.swift */,
+				FDA9951B2A557A58004EB497 /* Post.json */,
 			);
 			path = DeutscheBankTestTests;
 			sourceTree = "<group>";
@@ -184,6 +194,14 @@
 				FDA9950A2A5496CE004EB497 /* Database.swift */,
 			);
 			path = Database;
+			sourceTree = "<group>";
+		};
+		FDA9951D2A557AC7004EB497 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDA9951E2A557ADA004EB497 /* Bundle+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA995222A557CF4004EB497 /* Post.json in Resources */,
 				FDA994D62A5420EE004EB497 /* Preview Assets.xcassets in Resources */,
 				FDA994D32A5420EE004EB497 /* Assets.xcassets in Resources */,
 			);
@@ -276,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA9951C2A557A58004EB497 /* Post.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +328,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDA995212A557B04004EB497 /* MockAPIService.swift in Sources */,
 				FDA994E02A5420EE004EB497 /* DeutscheBankTestTests.swift in Sources */,
+				FDA9951F2A557ADA004EB497 /* Bundle+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
